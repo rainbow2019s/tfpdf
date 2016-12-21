@@ -1,7 +1,7 @@
 # tfpdf
 PHP 生成PDF文件
 
-只是简单的把tFPDF 1.2.4
+只是简单的把tFPDF 1.2.4包装成composer规范
 
 # 用法
 use tfpdf\Pdf;
@@ -17,6 +17,6 @@ $pdfLibrary->AddFont('Yahei','','Monaco_Yahei.ttf',true);
 $pdfLibrary->SetFont('Yahei','',8);
  
 $pdfLibrary->Write(8, "中文测试");
-pdfLibrary->Output('abc.pdf','D');
+$pdfLibrary->Output('abc.pdf','D');
 
 
